@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('images/car-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+#heading{
+    color: white;
+    
+}
+#btn{
+    background-color: blue;
+    padding: 0.5rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding : 20px;head
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+   
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+main{
+    height: 80vh;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.section1 .div3{
+    margin-top: 33vh;
+}
+.section1 .div3 .heading2{
+    font-size: 40px;
+    font-weight:bold;
+    color: turquoise;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section1 .div3 .div4{
+    margin-top:25px;
+}
+.section1 .div3 .div4 p{
+    color:whitesmoke;
+    font-size:22px;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section1 .div3 .div4 button{
+    background-color:turquoise;
+    color:whitesmoke;
+    border:none;
+    font-size: 20px;
+    padding: 8px 10px;
+    box-shadow: 0px 0px 4px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section1 .div3 .div4 button:hover{
+    color:aliceblue;
+    background-color:blue;
+    cursor: pointer;
+}
+footer{
+    height: 8vh;
+    background-color: black;
+}
+.footer1{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer1 .div5 h3{
+    color:turquoise;
+    font-size:9px;
+    margin-top: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer1 .div5 p{
+    color: whitesmoke;
+    font-size: 9px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
